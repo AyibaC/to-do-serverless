@@ -1,0 +1,14 @@
+@import "bulma/bulma";
+
+.bulma-loader-mixin {
+    @include loader;
+  }
+
+  .user-id {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  
